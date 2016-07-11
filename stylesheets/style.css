@@ -1,0 +1,71 @@
+body
+{
+  background: #66ccff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #66ccff, #77DD77 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #66ccff, #77DD77); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #66ccff, #77DD77); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #66ccff, #77DD77 ); /* Standard syntax */
+  background-position: center center;
+  background-attachment: fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.circulardiv
+{
+	position:absolute;
+	top:25%;
+	left:15%;
+	height:50%;
+	width:75%;
+	-moz-border-radius: 25%;
+	-webkit-border-radius: 25%;
+	border-radius: 25%;
+	
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.centeralign
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+
+.comingsoon
+{
+	color:#77DD77;
+	position:absolute;
+	right:6%;
+	bottom:10%;
+	font-weight: bold;
+}
+.hc
+{
+	color:#66ccff;
+	position:absolute;
+	left:2%;
+	top:20%;
+	font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 75%;
+}
+
+.iconstyle
+{
+	height:2%;
+	width:2%;
+	
+}
+
+
